@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gemspec name: 'solargraph'
+gemspec name: 'jimeh-solargraph'
 
 # Local gemfile for development tools, etc.
 local_gemfile = File.expand_path(".Gemfile", __dir__)

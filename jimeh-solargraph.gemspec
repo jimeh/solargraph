@@ -3,7 +3,7 @@ require 'solargraph/version'
 require 'date'
 
 Gem::Specification.new do |s|
-  s.name        = 'solargraph'
+  s.name        = 'jimeh-solargraph'
   s.version     = Solargraph::VERSION
   s.date        = Date.today.strftime("%Y-%m-%d")
   s.summary     = "A Ruby language server"
@@ -16,6 +16,9 @@ Gem::Specification.new do |s|
   s.homepage    = 'http://solargraph.org'
   s.license     = 'MIT'
   s.executables = ['solargraph']
+  s.metadata = {
+    'source_code_uri' => 'https://github.com/jimeh/solargraph',
+  }
 
   s.required_ruby_version = '>= 2.4'
 

@@ -1,5 +1,24 @@
 # Solargraph
 
+**NOTE:** This is a fork of [solargraph][1] which aims to very quickly
+incorporate fixes from outstanding [Pull Requests][2] and release them as a gem
+called `jimeh-solargraph`. You can easily [compare][3] changes which have been
+added to this fork.
+
+[1]: https://github.com/castwide/solargraph
+[2]: https://github.com/castwide/solargraph/pulls
+[3]: https://github.com/castwide/solargraph/compare/master...jimeh:master
+
+To use this gem, you should first uninstall the `solargraph` gem to avoid
+conflicts, as both gems provide a binary called `solargraph`.
+
+The version of `jimeh-solargraph` will follow that of `solargraph`, with an
+additional number added at the end. For example solargraph 0.40.4 will be
+0.40.4.1 of jimeh-solargraph. The final digit will be incremented
+independently of the previous three digits that make up solargraph's version.
+
+---
+
 ## A Ruby Language Server
 
 Solargraph provides a comprehensive suite of tools for Ruby programming: intellisense, diagnostics, inline documentation, and type checking.
@@ -12,11 +31,11 @@ A web-based demonstration of Solargraph's autocomplete is available at https://s
 
 Install the gem from the command line:
 
-    gem install solargraph
+    gem install jimeh-solargraph
 
 Or add it to your Gemfile:
 
-    gem 'solargraph', group: :development
+    gem 'jimeh-solargraph', group: :development
 
 ## Using Solargraph
 
